@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "version": "1.1",
+    "generated_at": "2026-09-11",
+    "source": [
+      "/home/lixiang/图片/1.jpg（携程订单列表·未出行：酒店×2、机票×1）",
+      "/home/lixiang/图片/2.jpg（携程订单列表·未出行：机票×2）"
+    ],
+    "note": "所有信息均来自携程订单截图。截图中未显示年份，按当前年份 2026 推断；未显示订单号、房型全称（被省略号截断）与入住人信息。",
+    "confirmed_decisions": [
+      "单日详情采用手风琴原地展开",
+      "同行共 2 人，两家住宿各 1 间房",
+      "每日行程本期按「骨架 + 待定占位」渲染，activities 出发前补充"
+    ]
+  },
+
+  "trip": {
+    "title": "三亚 6 天 5 晚",
+    "subtitle": "上海 ⇄ 三亚",
+    "country": "中国",
+    "province": "海南",
+    "origin_city": "上海",
+    "destination_countries": ["中国"],
+    "destination_cities": ["三亚"],
+    "destination_areas": ["亚龙湾", "天涯镇马岭"],
+    "start_date": "2026-09-22",
+    "end_date": "2026-09-27",
+    "duration_days": 6,
+    "hotel_nights": 4,
+    "currency": "CNY",
+    "known_cost_total": 5676,
+    "known_cost_breakdown": {
+      "flights": 1416,
+      "hotels": 4260
+    },
+    "cost_note": "不含餐饮、门票、市内交通。机票是否为单人票价未确认，故不展示人均总额。"
+  },
+
+  "locations": {
+    "pvg_t1": {
+      "name": "上海浦东国际机场 T1",
+      "short_name": "浦东机场 T1",
+      "address": "上海市浦东新区启航路900号",
+      "city": "上海",
+      "map_keyword": "上海浦东国际机场T1航站楼"
+    },
+    "syx": {
+      "name": "三亚凤凰国际机场",
+      "short_name": "凤凰机场",
+      "address": "海南省三亚市天涯区凤凰路",
+      "city": "三亚",
+      "map_keyword": "三亚凤凰国际机场"
+    },
+    "syx_t1": {
+      "name": "三亚凤凰国际机场 T1",
+      "short_name": "凤凰机场 T1",
+      "address": "海南省三亚市天涯区凤凰路",
+      "city": "三亚",
+      "map_keyword": "三亚凤凰国际机场1号航站楼"
+    },
+    "sha": {
+      "name": "上海（浦东 / 虹桥待确认）",
+      "short_name": "上海",
+      "address": null,
+      "city": "上海",
+      "map_keyword": null,
+      "confirmed": false
+    },
+    "sheraton": {
+      "name": "三亚亚龙湾喜来登度假酒店",
+      "short_name": "亚龙湾喜来登",
+      "address": "亚龙湾国家旅游度假区龙海路19号",
+      "city": "三亚",
+      "map_keyword": "三亚亚龙湾喜来登度假酒店"
+    },
+    "zhiman": {
+      "name": "三亚芷慢·无尽海民宿",
+      "short_name": "芷慢·无尽海",
+      "address": "天涯镇马岭社区东二街328号",
+      "city": "三亚",
+      "map_keyword": "三亚芷慢无尽海民宿"
+    }
+  },
+
+  "flights": [
+    {
+      "id": "F1",
+      "direction": "去程",
+      "from_city": "上海",
+      "to_city": "三亚",
+      "flight_no": "MU5397",
+      "airline": "中国东方航空",
+      "depart_date": "2026-09-22",
+      "depart_time": "21:30",
+      "arrive_date": "2026-09-23",
+      "arrive_time": "01:10",
+      "overnight": true,
+      "depart_code": "PVG",
+      "arrive_code": "SYX",
+      "depart_terminal": "T1",
+      "depart_location_ref": "pvg_t1",
+      "arrive_location_ref": "syx",
+      "arrive_terminal": null,
+      "duration": "3小时40分",
+      "price": 549,
+      "status": "已出票",
+      "included_services": ["优惠券", "购物券"],
+      "booking_platform": "携程旅行"
+    },
+    {
+      "id": "F2",
+      "direction": "返程",
+      "from_city": "三亚",
+      "to_city": "上海",
+      "flight_no": "9C8780",
+      "airline": "春秋航空",
+      "depart_date": "2026-09-27",
+      "depart_time": "11:55",
+      "arrive_date": "2026-09-27",
+      "arrive_time": "15:20",
+      "overnight": false,
+      "depart_code": "SYX",
+      "arrive_code": "SHA",
+      "depart_terminal": "T1",
+      "depart_location_ref": "syx_t1",
+      "arrive_location_ref": "sha",
+      "arrive_terminal": null,
+      "duration": "3小时25分",
+      "price": 867,
+      "status": "已出票",
+      "included_services": ["美食券", "优惠券", "购物券"],
+      "booking_platform": "携程旅行"
+    }
+  ],
+
+  "hotels": [
+    {
+      "id": "H1",
+      "name": "三亚亚龙湾喜来登度假酒店",
+      "location_ref": "sheraton",
+      "city": "三亚",
+      "area": "亚龙湾",
+      "address": "亚龙湾国家旅游度假区龙海路19号",
+      "check_in": "2026-09-23",
+      "check_out": "2026-09-25",
+      "covers_days": [2, 3],
+      "nights": 2,
+      "rooms": 1,
+      "room_type": "全海景客房",
+      "price": 3042,
+      "payment": "在线担保，到店付",
+      "payment_alert": true,
+      "payment_confirmed": false,
+      "payment_note": "截图显示「到店付 ¥3042」；用户批注为在线担保后到店另付，金额写作 3402，与截图不一致，需核对是一笔还是两笔支出",
+      "status": "预订成功",
+      "phone": null,
+      "booking_platform": "携程旅行"
+    },
+    {
+      "id": "H2",
+      "name": "三亚芷慢·无尽海民宿",
+      "location_ref": "zhiman",
+      "city": "三亚",
+      "area": "天涯镇马岭社区",
+      "address": "天涯镇马岭社区东二街328号",
+      "check_in": "2026-09-25",
+      "check_out": "2026-09-27",
+      "covers_days": [4, 5],
+      "nights": 2,
+      "rooms": 1,
+      "room_type": "晓梦-270°海景阳台（截图中房型名称被截断）",
+      "price": 1218,
+      "payment": "已在线付",
+      "payment_alert": false,
+      "payment_confirmed": true,
+      "status": "预订成功",
+      "phone": null,
+      "booking_platform": "携程旅行"
+    }
+  ],
+
+  "transport": {
+    "car_rental": [],
+    "trains": [],
+    "local_transport": [
+      {
+        "id": "T1",
+        "date": "2026-09-23",
+        "type": "机场接送",
+        "from": "三亚凤凰国际机场",
+        "to": "三亚亚龙湾喜来登度假酒店",
+        "to_location_ref": "sheraton",
+        "distance": "约 40 公里",
+        "eta": "约 45 分钟",
+        "note": "红眼航班 01:10 落地，需自行安排接送或打车",
+        "confirmed": false
+      },
+      {
+        "id": "T2",
+        "date": "2026-09-25",
+        "type": "酒店间转移",
+        "from": "亚龙湾喜来登",
+        "to": "天涯镇马岭·芷慢无尽海民宿",
+        "to_location_ref": "zhiman",
+        "distance": "约 40 公里",
+        "eta": "约 1 小时",
+        "note": "跨区转移，横穿三亚市区",
+        "confirmed": false
+      },
+      {
+        "id": "T3",
+        "date": "2026-09-27",
+        "type": "送机",
+        "from": "天涯镇马岭·芷慢无尽海民宿",
+        "to": "三亚凤凰国际机场 T1",
+        "to_location_ref": "syx_t1",
+        "distance": "约 15 公里",
+        "eta": "约 25 分钟",
+        "note": "建议 09:30 前出发，预留 2 小时以上",
+        "confirmed": false
+      }
+    ]
+  },
+
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2026-09-22",
+      "weekday": "周二",
+      "city": "上海",
+      "location_label": "上海 → 三亚（夜间飞行）",
+      "accommodation": null,
+      "accommodation_ref": null,
+      "accommodation_note": "夜间航班，无酒店住宿",
+      "tags": ["航班"],
+      "events": [
+        {
+          "time": "21:30",
+          "type": "flight",
+          "title": "MU5397 上海浦东 T1 起飞",
+          "location_ref": "pvg_t1",
+          "note": "建议 19:30 前抵达机场",
+          "ref": "F1"
+        }
+      ],
+      "activities": [],
+      "planned": false
+    },
+    {
+      "day": 2,
+      "date": "2026-09-23",
+      "weekday": "周三",
+      "city": "三亚",
+      "location_label": "抵达三亚 · 亚龙湾",
+      "accommodation": "三亚亚龙湾喜来登度假酒店",
+      "accommodation_ref": "H1",
+      "tags": ["航班", "入住"],
+      "events": [
+        {
+          "time": "01:10",
+          "type": "flight",
+          "title": "MU5397 抵达三亚凤凰国际机场",
+          "location_ref": "syx",
+          "note": "红眼航班落地",
+          "ref": "F1"
+        },
+        {
+          "time": "02:00",
+          "type": "transfer",
+          "title": "前往亚龙湾酒店",
+          "location_ref": "sheraton",
+          "note": "约 40 公里 / 45 分钟，接送待确认",
+          "ref": "T1",
+          "confirmed": false
+        },
+        {
+          "time": null,
+          "type": "hotel",
+          "title": "入住三亚亚龙湾喜来登度假酒店（全海景客房）",
+          "location_ref": "sheraton",
+          "note": "深夜入住，需提前告知酒店 late check-in",
+          "ref": "H1"
+        }
+      ],
+      "activities": [],
+      "planned": false
+    },
+    {
+      "day": 3,
+      "date": "2026-09-24",
+      "weekday": "周四",
+      "city": "三亚",
+      "location_label": "三亚 · 亚龙湾",
+      "accommodation": "三亚亚龙湾喜来登度假酒店",
+      "accommodation_ref": "H1",
+      "tags": [],
+      "events": [],
+      "activities": [],
+      "planned": false
+    },
+    {
+      "day": 4,
+      "date": "2026-09-25",
+      "weekday": "周五",
+      "city": "三亚",
+      "location_label": "亚龙湾 → 天涯镇马岭",
+      "accommodation": "三亚芷慢·无尽海民宿",
+      "accommodation_ref": "H2",
+      "tags": ["换住宿"],
+      "events": [
+        {
+          "time": null,
+          "type": "hotel",
+          "title": "退房：三亚亚龙湾喜来登度假酒店",
+          "location_ref": "sheraton",
+          "note": "到店付 ¥3042 需在此结清",
+          "ref": "H1"
+        },
+        {
+          "time": null,
+          "type": "transfer",
+          "title": "转移至天涯镇马岭社区",
+          "location_ref": "zhiman",
+          "note": "约 40 公里 / 1 小时，交通待确认",
+          "ref": "T2",
+          "confirmed": false
+        },
+        {
+          "time": null,
+          "type": "hotel",
+          "title": "入住三亚芷慢·无尽海民宿（晓梦-270°海景阳台）",
+          "location_ref": "zhiman",
+          "note": "已在线付",
+          "ref": "H2"
+        }
+      ],
+      "activities": [],
+      "planned": false
+    },
+    {
+      "day": 5,
+      "date": "2026-09-26",
+      "weekday": "周六",
+      "city": "三亚",
+      "location_label": "三亚 · 天涯镇马岭",
+      "accommodation": "三亚芷慢·无尽海民宿",
+      "accommodation_ref": "H2",
+      "tags": [],
+      "events": [],
+      "activities": [],
+      "planned": false
+    },
+    {
+      "day": 6,
+      "date": "2026-09-27",
+      "weekday": "周日",
+      "city": "三亚",
+      "location_label": "三亚 → 上海",
+      "accommodation": null,
+      "accommodation_ref": null,
+      "tags": ["航班"],
+      "events": [
+        {
+          "time": null,
+          "type": "hotel",
+          "title": "退房：三亚芷慢·无尽海民宿",
+          "location_ref": "zhiman",
+          "ref": "H2"
+        },
+        {
+          "time": "09:30",
+          "type": "transfer",
+          "title": "前往三亚凤凰国际机场 T1",
+          "location_ref": "syx_t1",
+          "note": "建议时间，约 15 公里 / 25 分钟",
+          "ref": "T3",
+          "confirmed": false
+        },
+        {
+          "time": "11:55",
+          "type": "flight",
+          "title": "9C8780 三亚凤凰 T1 起飞",
+          "location_ref": "syx_t1",
+          "ref": "F2"
+        },
+        {
+          "time": "15:20",
+          "type": "flight",
+          "title": "抵达上海",
+          "location_ref": "sha",
+          "note": "落地机场（浦东/虹桥）待确认",
+          "ref": "F2"
+        }
+      ],
+      "activities": [],
+      "planned": false
+    }
+  ],
+
+  "travelers": {
+    "count": 2,
+    "names": [],
+    "note": "共 2 人同行（本人 + 1 位同行），两家住宿各订 1 间房，与人数一致"
+  },
+
+  "reminders": [
+    {
+      "icon": "⚠️",
+      "level": "high",
+      "title": "红眼航班，注意延迟入住",
+      "detail": "09-23 凌晨 01:10 落地三亚，务必提前联系喜来登告知 late check-in，并安排好接机。"
+    },
+    {
+      "icon": "💰",
+      "level": "high",
+      "title": "喜来登需到店支付 ¥3042",
+      "detail": "在线担保，到店另付。金额与支付笔数待你最终核对，请备好可用额度的信用卡。"
+    },
+    {
+      "icon": "🌀",
+      "level": "medium",
+      "title": "9 月为海南台风季",
+      "detail": "出发前 3 天起关注天气与航班动态，备好雨具，留意景区临时关闭通知。"
+    },
+    {
+      "icon": "☀️",
+      "level": "normal",
+      "title": "防晒与海边装备",
+      "detail": "高倍防晒霜、墨镜、帽子、泳衣、防水袋；海边紫外线强度远高于市区。"
+    },
+    {
+      "icon": "🪪",
+      "level": "normal",
+      "title": "证件与登机",
+      "detail": "身份证随身携带；春秋航空行李额度较严，返程注意托运与随身重量限制。"
+    }
+  ],
+
+  "packing_list": [
+    "身份证 / 证件",
+    "手机 + 充电宝 + 充电器",
+    "防晒霜 / 墨镜 / 遮阳帽",
+    "泳衣 / 沙滩拖鞋 / 速干毛巾",
+    "雨具（台风季）",
+    "常用药品 / 驱蚊液",
+    "信用卡（喜来登到店付）",
+    "换洗衣物 4 天量"
+  ],
+
+  "data_gaps": [
+    "每日详细行程未定：itinerary 中 activities 全部为空，本期页面按「骨架 + 待定占位」渲染，出发前补充",
+    "无租车、火车、包车、机场接送等订单，transport.local_transport 中为推算建议而非已订项目",
+    "喜来登付款方式与金额待核对：截图 ¥3042 到店付，批注为在线担保 3402 + 到店另付",
+    "机票 ¥549 / ¥867 是单人票价还是 2 人合计未知，影响人均费用计算",
+    "返程 9C8780 抵达上海的机场（浦东/虹桥）未显示",
+    "民宿房型全称被省略号截断，仅识别到「晓梦-270°海景阳台」",
+    "订单号、酒店联系电话、入住人姓名未显示",
+    "locations 中未记录经纬度，导航按关键词检索而非坐标打点，避免坐标不准",
+    "年份为按当前年份推断（2026），请确认"
+  ]
+}
